@@ -193,7 +193,7 @@ plt.show()
 auc = np.trapz(fpr,tpr)
 print('AUC:', auc)
 
-"""**VISUALIZING KNN PREDICTIONS**"""
+"""**VISUALIZING KNN DATA**"""
 
 from sklearn.neighbors import KNeighborsClassifier
 knn =  KNeighborsClassifier(10)
